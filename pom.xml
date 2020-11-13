@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>bom-base</artifactId>
+        <groupId>dev.xethh.libs.toolkits</groupId>
+        <version>1.0.1</version>
+        <relativePath/>
+    </parent>
+
+
+    <!--Migrated from me.xethh.archetype:quickstart:1.1-RELEASE -->
+    <groupId>dev.xethh.archetype</groupId>
+    <artifactId>quickstart-scala-lib</artifactId>
+    <packaging>jar</packaging>
+
+
+    <name>quickstart-scala-lib</name>
+    <url>http://www.example.com</url>
+    <description>Maven archetype for generating scala and java mixed library project with basic libraries included in bom-common-spring-scala, the output is generally a non executable jar.</description>
+    <scm>
+        <connection>scm:git:git://github.com/xh-dev-pom-mgmt/archetype-quickstart-scala-lib.git</connection>
+        <developerConnection>scm:git:ssh://github.com:xh-dev-pom-mgmt/archetype-quickstart-scala-lib.git</developerConnection>
+        <url>https://github.com/xh-dev-pom-mgmt/archetype-quickstart-scala-lib</url>
+    </scm>
+
+</project>
